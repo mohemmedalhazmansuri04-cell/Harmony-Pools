@@ -21,10 +21,10 @@
       </div>
       <ul id="menu" class="hidden md:flex space-x-6">
         <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
-        <li><a href="services.html" class="hover:text-yellow-300">Services</a></li>
+        <li><a href="services.html" class="hover:text-yellow-300">Our Services</a></li>
         <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
         <li><a href="reviews.html" class="underline">Reviews</a></li>
-        <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+        <li><a href="#contact" class="hover:text-yellow-300">Contact Us</a></li>
       </ul>
     </div>
   </nav>
@@ -35,30 +35,53 @@
     <p class="text-lg md:text-2xl max-w-2xl mx-auto">See what our customers say about Harmony Pools!</p>
   </section>
 
-  <!-- Google Reviews Button Section -->
-  <section class="py-12">
-    <div class="container mx-auto px-4 max-w-4xl text-center">
-      <h2 class="text-3xl font-bold mb-4">Read Our Google Reviews</h2>
-      <p class="text-gray-700 mb-6">Click the button below to see all reviews from our satisfied customers!</p>
+  <!-- Reviews Cards Section -->
+  <section class="max-w-7xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold mb-8 text-blue-700 text-center">What Our Customers Say</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      
+      <!-- Review Card 1 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-300">
+        <p class="text-gray-700 mb-4">"Amazing service! Our pool has never looked better. Highly recommend Harmony Pools!"</p>
+        <p class="font-bold text-blue-700">- John D.</p>
+      </div>
+
+      <!-- Review Card 2 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-300">
+        <p class="text-gray-700 mb-4">"Professional and reliable. Quick turnaround and great communication."</p>
+        <p class="font-bold text-blue-700">- Sarah M.</p>
+      </div>
+
+      <!-- Review Card 3 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-300">
+        <p class="text-gray-700 mb-4">"Highly satisfied with the pool installation. The team was friendly and knowledgeable."</p>
+        <p class="font-bold text-blue-700">- Alex P.</p>
+      </div>
+
+      <!-- Add more review cards as needed -->
+    </div>
+
+    <!-- Google Reviews Button -->
+    <div class="text-center mt-12">
       <a href="https://g.page/r/CfqEowsaapn5EAE/review" target="_blank"
-         class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-lg shadow-lg text-lg transition duration-300">
-         Read Our Google Reviews
+         class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-xl shadow-lg text-lg transition duration-300">
+         Read All Google Reviews
       </a>
     </div>
   </section>
 
-  <!-- Chat & Email Section -->
+  <!-- Contact Section -->
   <section id="contact" class="bg-gray-100 py-20">
     <div class="container mx-auto px-4 max-w-xl text-center">
       <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
       <p class="text-gray-700 mb-8">Have questions or want a quote? Choose your preferred way to contact us!</p>
       <div class="flex flex-col md:flex-row justify-center gap-6">
         <a href="sms:+17056985289?body=Hi%20Rick,%20I%20would%20like%20to%20chat%20about%20pool%20services." 
-           class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-lg shadow-lg text-lg transition duration-300">
+           class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-xl text-lg transition duration-300">
            Chat with Us
         </a>
         <a href="mailto:harmony.pools@icloud.com" 
-           class="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg text-lg transition duration-300">
+           class="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition duration-300">
            Email Us
         </a>
       </div>
@@ -67,7 +90,7 @@
 
   <!-- Footer -->
   <footer class="bg-blue-700 text-white text-center py-6 mt-12">
-    <p>&copy; 2025 Harmony Pool Construction & Services. All rights reserved.</p>
+    &copy; 2025 Harmony Pool Construction & Services | <a href="mailto:harmony.pools@icloud.com" class="underline">harmony.pools@icloud.com</a>
   </footer>
 
   <!-- Mobile menu toggle -->
