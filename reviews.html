@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews - Harmony Pool Construction & Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-700 text-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <div class="text-2xl font-bold">Harmony Pools</div>
+      <div class="md:hidden">
+        <button id="menu-btn" class="focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <ul id="menu" class="hidden md:flex space-x-6">
+        <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+        <li><a href="services.html" class="hover:text-yellow-300">Services</a></li>
+        <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
+        <li><a href="reviews.html" class="underline">Reviews</a></li>
+        <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-20 text-center">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Customer Reviews</h1>
+    <p class="text-lg md:text-2xl max-w-2xl mx-auto">See what our customers say about Harmony Pools!</p>
+  </section>
+
+  <!-- Google Reviews Button Section -->
+  <section class="py-12">
+    <div class="container mx-auto px-4 max-w-4xl text-center">
+      <h2 class="text-3xl font-bold mb-4">Read Our Google Reviews</h2>
+      <p class="text-gray-700 mb-6">Click the button below to see all reviews from our satisfied customers!</p>
+      <a href="https://g.page/r/CfqEowsaapn5EAE/review" target="_blank"
+         class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-lg shadow-lg text-lg transition duration-300">
+         Read Our Google Reviews
+      </a>
+    </div>
+  </section>
+
+  <!-- Chat & Email Section -->
+  <section id="contact" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-4 max-w-xl text-center">
+      <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+      <p class="text-gray-700 mb-8">Have questions or want a quote? Choose your preferred way to contact us!</p>
+      <div class="flex flex-col md:flex-row justify-center gap-6">
+        <a href="sms:+17056985289?body=Hi%20Rick,%20I%20would%20like%20to%20chat%20about%20pool%20services." 
+           class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-lg shadow-lg text-lg transition duration-300">
+           Chat with Us
+        </a>
+        <a href="mailto:harmony.pools@icloud.com" 
+           class="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg text-lg transition duration-300">
+           Email Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-6 mt-12">
+    <p>&copy; 2025 Harmony Pool Construction & Services. All rights reserved.</p>
+  </footer>
+
+  <!-- Mobile menu toggle -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
